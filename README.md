@@ -21,7 +21,34 @@
 Слой	Технологии
 
 Frontend	React 18, Tailwind CSS, Axios, React Router DOM, React Hot Toast
+
 Backend	Django 5.0, Django REST Framework (DRF)
+
 Безопасность	JWT Authentication, Django CORS Headers
+
 База данных	SQLite (dev) / PostgreSQL (prod)
+
+📂 Структура проекта
+
+    ztube/
+    │
+    ├── back/                 # Backend API
+    │   ├── data/             # users/videos/comments
+    │   ├── uploads/          # загруженные файлы
+    │   │   ├── avatars/
+    │   │   ├── images/
+    │   │   └── videos/
+    │   ├── thumbnails/       # превью видео
+    │   ├── videos/           # логика видео/API
+    │   ├── main.py           # запуск сервера
+    │   ├── database.py       # база данных
+    │   ├── config.py         # конфиг
+    │   └── requirements.txt  # зависимости
+    │
+    ├── front/                # Frontend
+    │   ├── css/              # стили
+    │   ├── js/               # frontend логика
+    │   └── index.html        # главная страница
+    │
+    └── README.md
 
