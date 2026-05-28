@@ -18,15 +18,13 @@
         
 🛠 Технологический стек
 
-Слой	Технологии
-
-Frontend	React 18, Tailwind CSS, Axios, React Router DOM, React Hot Toast
-
-Backend	Django 5.0, Django REST Framework (DRF)
-
-Безопасность	JWT Authentication, Django CORS Headers
-
-База данных	SQLite (dev) / PostgreSQL (prod)
+    Frontend	React 18, Tailwind CSS, Axios, React Router DOM, React Hot Toast
+    
+    Backend	Django 5.0, Django REST Framework (DRF)
+    
+    Безопасность	JWT Authentication, Django CORS Headers
+    
+    База данных	SQLite (dev) / PostgreSQL (prod)
 
 📂 Структура проекта
 
